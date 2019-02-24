@@ -1,0 +1,42 @@
+Command: /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/./simv -l simv.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version M-2017.03_Full64; Runtime version M-2017.03_Full64;  Oct 25 19:27 2018
+***FATAL***: E1 is NOT connected, it has to be driven by the core!
+***FATAL***: E2 is NOT connected, it has to be driven by the core!
+***FATAL***: SMT is NOT connected, it has to be driven by the core!
+***FATAL***: SR is NOT connected, it has to be driven by the core!
+***FATAL***: E1 is NOT connected, it has to be driven by the core!
+***FATAL***: E2 is NOT connected, it has to be driven by the core!
+***FATAL***: SMT is NOT connected, it has to be driven by the core!
+***FATAL***: SR is NOT connected, it has to be driven by the core!
+***FATAL***: E1 is NOT connected, it has to be driven by the core!
+***FATAL***: E2 is NOT connected, it has to be driven by the core!
+***FATAL***: SMT is NOT connected, it has to be driven by the core!
+***FATAL***: SR is NOT connected, it has to be driven by the core!
+***FATAL***: E1 is NOT connected, it has to be driven by the core!
+***FATAL***: E2 is NOT connected, it has to be driven by the core!
+***FATAL***: SMT is NOT connected, it has to be driven by the core!
+***FATAL***: SR is NOT connected, it has to be driven by the core!
+***FATAL***: E1 is NOT connected, it has to be driven by the core!
+***FATAL***: E2 is NOT connected, it has to be driven by the core!
+***FATAL***: SMT is NOT connected, it has to be driven by the core!
+***FATAL***: SR is NOT connected, it has to be driven by the core!
+***FATAL***: E1 is NOT connected, it has to be driven by the core!
+***FATAL***: E2 is NOT connected, it has to be driven by the core!
+***FATAL***: SMT is NOT connected, it has to be driven by the core!
+***FATAL***: SR is NOT connected, it has to be driven by the core!
+***FATAL***: E1 is NOT connected, it has to be driven by the core!
+***FATAL***: E2 is NOT connected, it has to be driven by the core!
+***FATAL***: SMT is NOT connected, it has to be driven by the core!
+***FATAL***: SR is NOT connected, it has to be driven by the core!
+***FATAL***: E1 is NOT connected, it has to be driven by the core!
+***FATAL***: E2 is NOT connected, it has to be driven by the core!
+***FATAL***: SMT is NOT connected, it has to be driven by the core!
+***FATAL***: SR is NOT connected, it has to be driven by the core!
+$finish called from file "./ccs0101_tb.v", line 223.
+$finish at simulation time              8646525
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 8646525 ps
+CPU Time:      0.520 seconds;       Data structure size:   0.4Mb
+Thu Oct 25 19:27:40 2018

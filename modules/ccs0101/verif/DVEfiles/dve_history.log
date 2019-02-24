@@ -1,0 +1,112 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key BackTrace_toolbar -value true
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/projects/vlsi/ccs0003/design/modules/ccs0003/verif/ro.session.inter.vpd.tcl} {gui_load_session -ignore_errors -file /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/rng.session.inter.vpd.tcl} {gui_load_session -ignore_errors -file /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/gfunc2.inter.vpd.tcl} {gui_load_session -ignore_errors -file /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/gfunc.inter.vpd.tcl} {gui_load_session -ignore_errors -file /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/DVEfiles/dve_checkpoint_25527_1.tcl}}
+gui_set_state_value -category Globals -key recent_tcl_scripts -value {{gui_dve_source -global /home/projects/vlsi/ccs0003/design/modules/ccs0003/verif/ro.session.inter.vpd.tcl} {gui_dve_source -global /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/rng.session.inter.vpd.tcl} {gui_dve_source -global /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/gfunc2.inter.vpd.tcl} {gui_dve_source -global /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/mod_exp2.inter.vpd.tcl} {gui_dve_source -global /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/gfunc.inter.vpd.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1540
+gui_set_state_value -category Layout -key child_console_size_y -value 391
+gui_set_state_value -category Layout -key child_data_coltype -value 146
+gui_set_state_value -category Layout -key child_data_colvalue -value 61
+gui_set_state_value -category Layout -key child_data_colvariable -value 285
+gui_set_state_value -category Layout -key child_data_size_x -value 438
+gui_set_state_value -category Layout -key child_data_size_y -value 393
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 354
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 154
+gui_set_state_value -category Layout -key child_hier_size_x -value 456
+gui_set_state_value -category Layout -key child_hier_size_y -value 393
+gui_set_state_value -category Layout -key child_list_down -value 167
+gui_set_state_value -category Layout -key child_list_right -value 444
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 644
+gui_set_state_value -category Layout -key child_schematic_size_y -value 388
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 649
+gui_set_state_value -category Layout -key child_source_size_y -value 388
+gui_set_state_value -category Layout -key child_wave_colname -value 259
+gui_set_state_value -category Layout -key child_wave_colvalue -value 259
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_dockstate -value bottom
+gui_set_state_value -category Layout -key child_wave_left -value 522
+gui_set_state_value -category Layout -key child_wave_right -value 1273
+gui_set_state_value -category Layout -key child_wave_size_x -value 1919
+gui_set_state_value -category Layout -key child_wave_size_y -value 460
+gui_set_state_value -category Layout -key main_pos_x -value 207
+gui_set_state_value -category Layout -key main_pos_y -value 159
+gui_set_state_value -category Layout -key main_size_x -value 1747
+gui_set_state_value -category Layout -key main_size_y -value 1050
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 604
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 312
+gui_set_state_value -category Layout -key stand_list_top_pos_x -value 502
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 51
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 1101
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 550
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1805
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 868
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 65
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 70
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1865
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1050
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {*wbyte* *valid* ** *host*}
+gui_create_state_key -category Widget_History -key dlgDumpValues|m_Combo -value_type string -value {Top_Bench ccs0101_tb ccs0201_tb}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_expand -id  Hier.1   ccs0101_tb
+gui_list_select -id Hier.1 -current_item_name ccs0101_tb.u_dut_inst -current_item_type Scope  -selected  { ccs0101_tb.u_dut_inst   }
+gui_list_expand -id  Data.1   {ccs0101_tb.u_dut_inst.pad[10:0]}
+gui_list_select -id Data.1 -selected  { {ccs0101_tb.u_dut_inst.pad[5]}   }
+gui_list_select -id Hier.1 -current_item_name ccs0101_tb -current_item_type Scope  -selected  { ccs0101_tb   }
+dump -add { ccs0101_tb }  -depth 0 -scope "." -filter=variable,generic,constant,pack_vh,parameter,define_cell,y_cell_lib,specify,child_cell
+dump -add { ccs0101_tb }  -depth 0 -scope "." -filter=variable,generic,constant,pack_vh,parameter,define_cell,y_cell_lib,specify,child_cell
+gui_list_select -id Hier.1 -current_item_name ccs0101_tb.u_dut_inst -current_item_type Scope  -selected  { ccs0101_tb.u_dut_inst   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {ccs0101_tb.u_dut_inst.pad[5]} } -insertionbar
+gui_list_expand -id  Hier.1   ccs0101_tb.u_dut_inst
+gui_list_select -id Hier.1 -current_item_name ccs0101_tb.u_dut_inst.u_chip_core_inst -current_item_type Scope  -selected  { ccs0101_tb.u_dut_inst.u_chip_core_inst   }
+gui_list_expand -id  Data.1   {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_ctl[10:3][8:0]}
+gui_list_select -id Data.1 -selected  { {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_ctl[5][8:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_ctl[5][8:0]} } -insertionbar
+gui_list_select -id Data.1 -selected  { ccs0101_tb.u_dut_inst.u_chip_core_inst.uarts_tx   }
+gui_list_add -id Wave.1 -from Data.1 { ccs0101_tb.u_dut_inst.u_chip_core_inst.uarts_tx } -insertionbar
+gui_sim_continue  
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 8492300
+gui_list_expand -id  Data.1   {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_in[10:3]}
+gui_list_select -id Data.1 -selected  { {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_in[5]}   }
+gui_list_add -id Wave.1 -from Data.1 { {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_in[5]} } -insertionbar
+gui_list_expand -id  Hier.1   ccs0101_tb.u_dut_inst.u_padring_inst
+gui_list_select -id Hier.1 -current_item_name {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst} -current_item_type Scope  -selected  { {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst}   }
+gui_list_select -id Data.1 -selected  { {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.I}   }
+gui_list_select -id Data.1 { {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.OEN}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.PAD}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.C}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.REN}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.SMT}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.SR}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.P1}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.P2}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.E1}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.E2}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.POC}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.HVPS}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.BIAS}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.POS}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.VDD}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.VSS}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.DVDD}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.DVSS}  {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.REG_REPEATER}   }
+gui_list_add -id Wave.1 -from Data.1 { {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.I} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.OEN} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.PAD} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.C} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.REN} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.SMT} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.SR} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.P1} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.P2} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.E1} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.E2} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.POC} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.HVPS} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.BIAS} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.POS} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.VDD} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.VSS} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.DVDD} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.DVSS} {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.REG_REPEATER} } -insertionbar
+gui_list_select -id Wave.1 -selected  { {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_in[5]}   }
+gui_list_select -id Wave.1 -selected  { {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.I}   }
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 8153025 8749337
+gui_list_select -id Wave.1 -selected  { {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_in[5]}   }
+gui_list_select -id Wave.1 -selected  { {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst.OEN}   }
+#gui_exit
+

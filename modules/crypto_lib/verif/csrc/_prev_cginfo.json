@@ -1,0 +1,132 @@
+{
+    "MlibObjs": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "mod_exp_tb": [
+            "mod_exp_tb",
+            "vUAiI",
+            "module",
+            4
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            3
+        ]
+    },
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "bytes": 40095,
+                "mod": "std",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.7/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7561,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "mod_exp_tb": {
+            "vUAiI_d": {
+                "bytes": 67789,
+                "mod": "mod_exp_tb",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.7/_24709_archive_1.a",
+                "out": "vUAiI_d.o"
+            }
+        }
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_maxrss_kb": 99884,
+            "ru_utime_sec": 0.19097,
+            "ru_stime_sec": 0.12198100000000001,
+            "ru_nvcsw": 1268,
+            "ru_minflt": 29323,
+            "ru_majflt": 0,
+            "ru_nivcsw": 25
+        },
+        "ru_childs_end": {
+            "ru_maxrss_kb": 51920,
+            "ru_utime_sec": 0.024996000000000001,
+            "ru_stime_sec": 0.018997,
+            "ru_nvcsw": 19,
+            "ru_minflt": 8472,
+            "ru_majflt": 0,
+            "ru_nivcsw": 15
+        },
+        "nMops": 6939,
+        "ru_childs_cgstart": {
+            "ru_maxrss_kb": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_minflt": 0,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0
+        },
+        "nQuads": 3381,
+        "mop/quad": 2.0523513753327416,
+        "totalObjSize": 171377,
+        "ru_self_end": {
+            "ru_maxrss_kb": 104852,
+            "ru_utime_sec": 0.24896199999999999,
+            "ru_stime_sec": 0.13197900000000001,
+            "ru_nvcsw": 1273,
+            "ru_minflt": 32126,
+            "ru_majflt": 0,
+            "ru_nivcsw": 28
+        },
+        "mopSpeed": 119654.43509449581,
+        "peak_mem_kb": 283964,
+        "outputSizePerQuad": 50.688257911860397,
+        "quadSpeed": 58301.144985515253,
+        "Frontend(%)": 76.706485327078042,
+        "CodeGen(%)": 23.293514672921969
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 103654,
+        "archive": "archive.7/_24709_archive_1.a"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "mod_exp_tb",
+        "mod_exp_tb"
+    ],
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/home/projects/vlsi/ccs0101/design/modules/crypto_lib/verif",
+        "default_output_dir": "csrc",
+        "csrc_abs": "/home/projects/vlsi/ccs0101/design/modules/crypto_lib/verif/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/projects/vlsi/ccs0101/design/modules/crypto_lib/verif/simv.daidir",
+        "archive_dir": "archive.7"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.24709.json"
+    ],
+    "CompileStatus": "Successful"
+}

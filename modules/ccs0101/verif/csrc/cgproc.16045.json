@@ -1,0 +1,177 @@
+{
+    "CompUnits": {},
+    "Modules": {
+        "...MASTER...": {},
+        "uarts": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "ccs0101": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "padring_tb_0000": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "SRC_BI_SDS_33V_STB": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "PWC_VD_PDO_33V": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "padring_0000": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "ccs0101_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "uartm": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "ahb_ic_0000": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "gpcfg_rd": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "random_num_gen": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "gpcfg_rd_0000": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "chiplib_mux4": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "hw_rng_fsm": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "bin_ext_gcd": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "mod_exp": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "trng_wrap_0000": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "gpio": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "MX2_X4M_A9TH": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "B4ISH1025_EW": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        },
+        "trng": {
+            "Compiled": "Yes",
+            "Compiled Times": 5
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "yBz9K_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "yv2W1_d": {
+            "icPath": "csrc"
+        },
+        "tvsbq_d": {
+            "icPath": "csrc"
+        },
+        "m8VQI_d": {
+            "icPath": "csrc"
+        },
+        "bKAIe_d": {
+            "icPath": "csrc"
+        },
+        "QRW6x_d": {
+            "icPath": "csrc"
+        },
+        "iwuxn_d": {
+            "icPath": "csrc"
+        },
+        "PPIiL_d": {
+            "icPath": "csrc"
+        },
+        "whPY1_d": {
+            "icPath": "csrc"
+        },
+        "BB41q_d": {
+            "icPath": "csrc"
+        },
+        "NB0ve_d": {
+            "icPath": "csrc"
+        },
+        "V2ZKf_d": {
+            "icPath": "csrc"
+        },
+        "DDjAf_d": {
+            "icPath": "csrc"
+        },
+        "mMrFd_d": {
+            "icPath": "csrc"
+        },
+        "uyapm_d": {
+            "icPath": "csrc"
+        },
+        "t6kT9_d": {
+            "icPath": "csrc"
+        },
+        "Fjfv3_d": {
+            "icPath": "csrc"
+        },
+        "HnNJM_d": {
+            "icPath": "csrc"
+        },
+        "q7KJm_d": {
+            "icPath": "csrc"
+        },
+        "NhjRS_d": {
+            "icPath": "csrc"
+        },
+        "MIPBi_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.4/_16045_archive_1.a",
+            "objects": [
+                [
+                    "amcQwB.o",
+                    121927
+                ]
+            ],
+            "size": 121927
+        }
+    ]
+}

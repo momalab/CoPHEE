@@ -1,0 +1,43 @@
+
+Information: Interrupting current command. (INT-2)
+Information: script '/opt/programs/synopsys/vcs-mxi//etc/ucli/reverse.tcl'
+	stopped at line 14 due to error. (CMD-081)
+Information: script '/opt/programs/synopsys/vcs-mxi//etc/ucli/step.tcl'
+	stopped at line 16 due to error. (CMD-081)
+Information: script '/opt/programs/synopsys/vcs-mxi//etc/ucli/synopsys.tcl'
+	stopped at line 21 due to error. (CMD-081)
+Information: script '/opt/programs/synopsys/vcs-mxi//etc/ucli/ucli.tcl'
+	stopped at line 66 due to error. (CMD-081)
+Warning: Cannot load package ucli. Interactive simulation is unavailable
+
+    (file "/opt/programs/synopsys/vcs-mxi//etc/ucli/watch.tcl", between lines 5493 and 5492)
+    invoked from within
+"source /opt/programs/synopsys/vcs-mxi//etc/ucli/watch.tcl"
+    ("package ifneeded watch 1.0" script)
+    invoked from within
+"package require watch"
+    (file "/opt/programs/synopsys/vcs-mxi//etc/ucli/reverse.tcl" line 14)
+    invoked from within
+"source /opt/programs/synopsys/vcs-mxi//etc/ucli/reverse.tcl"
+    ("package ifneeded reverse 1.0" script)
+    invoked from within
+"package require reverse"
+    (file "/opt/programs/synopsys/vcs-mxi//etc/ucli/step.tcl" line 16)
+    invoked from within
+"source /opt/programs/synopsys/vcs-mxi//etc/ucli/step.tcl"
+    ("package ifneeded step 1.0" script)
+    invoked from within
+"package require step"
+    (file "/opt/programs/synopsys/vcs-mxi//etc/ucli/synopsys.tcl" line 21)
+    invoked from within
+"source /opt/programs/synopsys/vcs-mxi//etc/ucli/synopsys.tcl"
+    ("package ifneeded synopsys 1.0" script)
+    invoked from within
+"package require synopsys"
+    (file "/opt/programs/synopsys/vcs-mxi//etc/ucli/ucli.tcl" line 66)
+    invoked from within
+"source /opt/programs/synopsys/vcs-mxi//etc/ucli/ucli.tcl"
+    ("package ifneeded ucli 1.0" script)
+    invoked from within
+"package require ucli"
+Warning: The UCLI could not be loaded. Interactive simulation is unavailable.

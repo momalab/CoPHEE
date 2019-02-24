@@ -1,0 +1,23 @@
+                         Chronologic VCS (TM)
+         Version M-2017.03_Full64 -- Thu Oct 25 19:40:12 2018
+               Copyright (c) 1991-2017 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Top Level Modules:
+       ccs0101_tb
+TimeScale is 1 ns / 1 ps
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+20 unique modules to generate
+	However, due to incremental compilation, no re-compilation is necessary.
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic    _16045_archive_1.so _prev_archive_1.so _csrc0.so objs/udps/U7Vwg.o  SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /opt/programs/synopsys/vcs-mxi/linux64/lib/libzerosoft_rt_stubs.so /opt/programs/synopsys/vcs-mxi/linux64/lib/liberrorinf.so /opt/programs/synopsys/vcs-mxi/linux64/lib/libsnpsmalloc.so    /opt/programs/synopsys/vcs-mxi/linux64/lib/libvcsnew.so /opt/programs/synopsys/vcs-mxi/linux64/lib/libsimprofile.so /opt/programs/synopsys/vcs-mxi/linux64/lib/libvirsim.so /opt/programs/synopsys/vcs-mxi/linux64/lib/libuclinative.so /opt/programs/synopsys/vcs-mxi/linux64/lib/vcs_tls.o   -Wl,-whole-archive /opt/programs/synopsys/vcs-mxi/linux64/lib/libvcsucli.so -Wl,-no-whole-archive          /opt/programs/synopsys/vcs-mxi/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 1.337 seconds to compile + .557 seconds to elab + .129 seconds to link

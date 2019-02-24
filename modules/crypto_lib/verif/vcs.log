@@ -1,0 +1,21 @@
+                         Chronologic VCS (TM)
+         Version M-2017.03_Full64 -- Wed Jun 21 16:55:41 2017
+               Copyright (c) 1991-2017 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Error-[TMENF-ILL] Top Module/Entity not found
+  Top module/entity/config "ccs0001_tb" is not found in the following library 
+  list.
+  Liblist: DEFAULT
+
+
+Error-[NM] No modules defined
+  No modules defined in current design file(s).  
+
+2 errors
+CPU time: .125 seconds to compile

@@ -1,0 +1,6 @@
+/home/projects/vlsi/ccs0101/design/modules/crypto_lib/rtl/mod_exp.v
+/home/projects/vlsi/ccs0101/design/modules/crypto_lib/rtl/mod_mul_il.v
+/home/projects/vlsi/ccs0101/design/modules/crypto_lib/rtl/montgomery_from_conv.v
+/home/projects/vlsi/ccs0101/design/modules/crypto_lib/rtl/montgomery_mul.v
+/home/projects/vlsi/ccs0101/design/modules/crypto_lib/rtl/montgomery_to_conv.v
+/home/projects/vlsi/ccs0101/design/modules/crypto_lib/verif/mod_exp_tb.v

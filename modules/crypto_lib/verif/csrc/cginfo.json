@@ -1,0 +1,131 @@
+{
+    "MlibObjs": {},
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "mode": 4,
+                "bytes": 40095,
+                "mod": "std",
+                "checksum": 0,
+                "archive": "archive.8/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mode": 4,
+                "bytes": 7561,
+                "mod": "...MASTER...",
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "mod_exp_tb": {
+            "vUAiI_d": {
+                "mode": 4,
+                "bytes": 67723,
+                "mod": "mod_exp_tb",
+                "out": "vUAiI_d.o",
+                "checksum": 0,
+                "archive": "archive.8/_prev_archive_1.a"
+            }
+        }
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 103574,
+        "archive": "archive.8/_25898_archive_1.a"
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "mod_exp_tb": [
+            "mod_exp_tb",
+            "vUAiI",
+            "module",
+            4
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            3
+        ]
+    },
+    "stat": {
+        "totalObjSize": 103574,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.17397299999999999,
+            "ru_nvcsw": 1268,
+            "ru_stime_sec": 0.13397899999999999,
+            "ru_maxrss_kb": 99908,
+            "ru_nivcsw": 29,
+            "ru_minflt": 29178,
+            "ru_majflt": 0
+        },
+        "mop/quad": 2.0784313725490198,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_nivcsw": 0,
+            "ru_minflt": 0,
+            "ru_majflt": 0
+        },
+        "nMops": 4876,
+        "ru_self_end": {
+            "ru_utime_sec": 0.19896900000000001,
+            "ru_nvcsw": 1273,
+            "ru_stime_sec": 0.14297799999999999,
+            "ru_maxrss_kb": 104428,
+            "ru_nivcsw": 33,
+            "ru_minflt": 31479,
+            "ru_majflt": 0
+        },
+        "nQuads": 2346,
+        "quadSpeed": 93855.016802688362,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.024996000000000001,
+            "ru_nvcsw": 21,
+            "ru_stime_sec": 0.023996,
+            "ru_maxrss_kb": 51804,
+            "ru_nivcsw": 17,
+            "ru_minflt": 8472,
+            "ru_majflt": 0
+        },
+        "mopSpeed": 195071.21139382286,
+        "outputSizePerQuad": 44.149190110826936,
+        "CodeGen(%)": 12.562761033125772,
+        "Frontend(%)": 87.437238966874219,
+        "peak_mem_kb": 283956
+    },
+    "Misc": {
+        "cwd": "/home/projects/vlsi/ccs0101/design/modules/crypto_lib/verif",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "csrc_abs": "/home/projects/vlsi/ccs0101/design/modules/crypto_lib/verif/csrc",
+        "archive_dir": "archive.8",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/projects/vlsi/ccs0101/design/modules/crypto_lib/verif/simv.daidir"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "mod_exp_tb"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.25898.json"
+    ],
+    "CompileStatus": "Successful"
+}

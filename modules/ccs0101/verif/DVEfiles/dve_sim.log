@@ -1,0 +1,51 @@
+19:40:33    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe ./simv -pid 17018 -toolin /tmp/vcs_20181025154029_17015_mtn2..stdin -toolout /tmp/vcs_20181025154029_17015_mtn2..stdout  
+19:40:33    17 -->                                                                 [tcl] set ucliGUI::state
+19:40:33    18 -->                                                                     [tcl] gui_update_simulator_buttons
+19:40:34    19 -->                                                                         [tcl] set ucliGUI::state
+19:40:34    20 -->                                                                             [tcl] ucliCore::getToolPID
+19:40:34    21 -->                                                                                 [tcl] synopsys::env hasTB
+19:40:34    22 -->                                                                                     [tcl] trigger_hier_stack_context_switch 0
+19:40:34    23 -->                                                                                         [tcl] synUtils::setDVEInitPhase 1
+19:40:34    24 -->                                                                                             [tcl] gui_get_env SIMSETUP::SIMVPD
+19:40:34    25 --> ...  [tcl] synopsys::dump -type VPD -file /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/inter.vpd -locking
+19:40:35    26 --> ...      [tcl] synopsys::dump -autoflush on -fid VPD0
+19:40:35    27 --> ...          [tcl] set ::dve_fid VPD0
+19:40:35    28 --> ...              [tcl] synUtils::setDVEInitPhase 0
+19:40:35    29 --> ...                  [tcl] ucliCore::getToolPID
+19:40:35    30 --> ...                      [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp5E0zvB
+19:40:35    31 --> ...                          [tcl] synUtils::sendTool -active {_icl_start_rpc -version "M-2017.03_Full64" -sync_file /tmp/vcs_dve_rpc.mtn2.17018}
+19:40:35    32 --> ...                              [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.mtn2.17018}
+19:40:35    33 --> ...                                  [tcl] dveMisc::vbusExpand ccs0101_tb
+19:40:35    34 --> ...                                      [tcl] config endofsim noexit
+19:40:35    35 --> ...                                          [tcl] config onfail enable all
+19:40:35    36 --> ...                                              [tcl] config syscaddplainmembers
+19:40:35    37 --> ...                                                  [tcl] config syscaddsourcenames
+19:40:35    38 --> ...                                                      [tcl] config syscaddstructtypes
+19:40:35    39 --> ...                                                          [tcl] synopsys::listing -disable
+19:40:44    40 --> ...                                                              [tcl] dveMisc::vbusExpand ccs0101_tb.u_dut_inst
+19:40:58    41 --> ...                                                                  [tcl] dump -add { ccs0101_tb }  -depth 0 -scope "." -filter=variable,generic,constant,pack_vh,parameter,define_cell,y_cell_lib,specify,child_cell
+19:41:21    42 --> ...                                                                      [tcl] dveMisc::vbusExpand ccs0101_tb.u_dut_inst.u_chip_core_inst
+19:41:25    43 --> ...                                                                          [tcl] synopsys::dump -add {ccs0101_tb.u_dut_inst.u_chip_core_inst.pad_ctl} -aggregates  -fid VPD0
+19:41:40    44 --> ...                                                                              [tcl] synopsys::run
+19:41:40    45 --> ...                                                                                  [tcl] set ucliGUI::state
+19:41:40    46 --> ...                                                                                      [tcl] gui_update_simulator_buttons
+19:41:40    47 --> ...                                                                                          [tcl] set ucliGUI::state
+19:41:40    48 --> ...                                                                                              [tcl] gui_update_simulator_buttons
+19:41:40    49 --> ...                                                                                                  [tcl] set ucliGUI::state
+19:41:40    50 --> ...  [tcl] set ucliGUI::state
+19:41:40    51 --> ...      [tcl] catch {senv activeDomain} dveMisc::result 
+19:41:40    52 --> ...          [tcl] set dveMisc::result
+19:41:40    53 --> ...              [tcl] gui_update_simulator_buttons
+19:42:30    54 --> ...                  [tcl] dveMisc::vbusExpand {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst}
+19:43:23    55 --> ...                      [tcl] ucliGUI::vpdAddHierarchy -scope {ccs0101_tb.u_dut_inst.u_padring_inst.genblk1[5].u_pad_inst} -depth 1 -file /home/projects/vlsi/ccs0101/design/modules/ccs0101/verif/inter.vpd; synopsys::dump -flush VPD0
+12:07:48    56 --> ...                          [tcl] if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+12:07:48    57 --> ...                              [tcl] synopsys::finish
+12:07:48    58 --> ...                                  [tcl] set ucliGUI::state
+12:07:48    59 --> ...                                      [tcl] gui_update_simulator_buttons
+12:07:58    60 --> ...                                          [tcl] set ucliGUI::state
+12:07:58    61 --> ...                                              [tcl] catch {senv activeDomain} dveMisc::result 
+12:07:58    62 --> ...                                                  [tcl] set dveMisc::result
+12:07:58    63 --> ...                                                      [tcl] gui_update_simulator_buttons
+12:07:58    64 --> ...                                                          [tcl] catch {senv activeDomain} dveMisc::result 
+12:07:58    65 --> ...                                                              [tcl] set dveMisc::result
+12:07:58    66 --> ...                                                                  [tcl] ucli_exit
