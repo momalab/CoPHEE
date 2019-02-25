@@ -1,4 +1,0 @@
-WORK /home/projects/vlsi/ccs0101/verif/work 2 DEFAULT
-DEFAULT /home/projects/vlsi/ccs0101/verif/work 2 -
-STATS_PKG ./stat_work 2 -
-MEM_PKG ./mem_work 2 -
