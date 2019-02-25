@@ -1,0 +1,1 @@
+/home/projects/vlsi/libraries/65lpe/ref_lib/aragio/io_pads/verilog/rgo_csm65_25v33_50.v
