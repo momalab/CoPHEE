@@ -19,6 +19,7 @@ All the RTL directories are present under:
 https://github.com/momalab/CoPHEE/tree/master/modules 
 
 Final Set of RTL Files:
+
   #Chip Top File
   ./modules/ccs0101/rtl/ccs0101.v
   ./modules/ccs0101/rtl/ccs0101_define.v
