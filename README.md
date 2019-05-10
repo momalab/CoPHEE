@@ -1,5 +1,17 @@
 # CoPHEE
-CoPHEE is a co-processor for Partially Homomorphic Encrypted Encryption
+CoPHEE is a co-processor for Partially Homomorphic Encrypted Encryption. 
+
+Copyright (c) 2019  Michail Maniatakos, New York University Abu Dhabi, wp.nyu.edu/momalab/
+
+# Cite us!
+
+ If find our work useful, please cite our publication:
+ 
+    M. Nabeel, M. Ashraf, E. Chielle, N.G. Tsoutsos, and M. Maniatakos.
+    “CoPHEE: Co-processor for Partially Homomorphic Encrypted Execution”. 
+    In: IEEE Hardware-Oriented Security and Trust (HOST), 2019. 
+
+# RTL files description
 
 All the RTL directories are present under :
 https://github.com/momalab/CoPHEE/tree/master/modules 
