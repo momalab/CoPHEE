@@ -1,5 +1,5 @@
 # CoPHEE
-CoPHEE is a co-processor for Partially Homomorphic Encrypted Encryption. 
+CoPHEE is a Co-processor for Partially Homomorphic Encrypted Encryption. 
 
 Copyright (c) 2019  Michail Maniatakos, New York University Abu Dhabi, https://wp.nyu.edu/momalab/
 
