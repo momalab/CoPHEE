@@ -14,7 +14,7 @@ If you find our work useful, please cite our publication [(author's version pdf)
 A limited number of fabricated ASICs of CoPHEE can be sent to researchers. Please [e-mail the MoMA Lab director](mailto:michail.maniatakos+cophee@nyu.edu) with a request.
 
 # Technical report for CoPHEE
-A technical report detailing the design and fabrication process for CoPHEE can be found [(here)](http://sites.nyuad.nyu.edu/moma/pdfs/pubs/CoPHEE_Technical_Report.pdf).
+A technical report detailing the design and fabrication process for CoPHEE can be found [here](http://sites.nyuad.nyu.edu/moma/pdfs/pubs/CoPHEE_Technical_Report.pdf).
 
 # RTL files description
 
