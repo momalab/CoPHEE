@@ -1,22 +1,52 @@
+Project Presentation Overleaf Link
+https://www.overleaf.com/project/632aadf3ab08f97b1824fc45
+
 # CoPHEE
-CoPHEE is a Co-processor for Partially Homomorphic Encrypted Encryption. CoPHEE assists the host processor with the calculation of big number modular arithmetic like modular multiplication, modular exponentiation, and modular inverse, for operand size 64-bit to 2048-bit. In addition, it calculates the greatest common divisor (GCD) of two numbers and generates random numbers. The host processor communicates with CoPHEE through an UART interface. CoPHEE has been fabricated in ASIC (65 nm Globalfoundry LPe process) and a 512-bit version has also been loaded on an FPGA (Nexys-4 DDR).
+Research Paper Link
+https://nyuad.nyu.edu/content/dam/nyuad/news/news/2019/june/CoPHEE-report.pdf
 
-Copyright (c) 2019 Michail Maniatakos, New York University Abu Dhabi, https://wp.nyu.edu/momalab/
+# Encrypted Data Processor Using Partial Homomorphic Encryption
 
-# Cite us!
-If you find our work useful, please cite our publication [(author's version pdf)](http://sites.nyuad.nyu.edu/moma/pdfs/pubs/C42.pdf):
- 
-    M. Nabeel, M. Ashraf, E. Chielle, N.G. Tsoutsos, and M. Maniatakos.
-    “CoPHEE: Co-processor for Partially Homomorphic Encrypted Execution”. 
-    In: IEEE Hardware-Oriented Security and Trust (HOST), 2019. 
 
-# Request a copy of CoPHEE
-A limited number of fabricated ASICs of CoPHEE can be sent to researchers. Please [e-mail the MoMA Lab director](mailto:michail.maniatakos+cophee@nyu.edu) with a request.
+# Creating GitHub Account
+•	Open https://github.com in a web browser, and then select Sign up.
+•	Enter your email address
+•	Create a password for your new GitHub account, and Enter a username, too. 
+•	Next, choose whether you want to receive updates and announcements via email.
+•	select Continue.
+•	Verify your account by solving a puzzle. 
+•	Select the Start Puzzle button to do so, and then follow the prompts.
+•	After you verify your account, 
+•	select the Create account button.
+•	Next, GitHub sends a launch code to your email address.
+•	ype that launch code in the Enter code dialog, and then press Enter.
+•	Congratulations! You've successfully created your GitHub account.
 
-# Technical report for CoPHEE
-A technical report detailing the design and fabrication process for CoPHEE can be found [here](http://sites.nyuad.nyu.edu/moma/pdfs/pubs/CoPHEE_Technical_Report.pdf).
+# Creating Overleaf Account
+•	Open https://www.overleaf.com/ in a web browser, and then select Sign up
+•	Add an email address from a university, college, or other higher education institution, and confirm your role and department.
+•	Check your email for a message from Overleaf to verify and complete signup.
 
-# RTL files description
+#AND_Gate
+
+#4_bit_Full_Adder
+
+Get Clone Code
+
+
+#IEEE Standard for Verilog®
+Hardware Description Language
+IEEE Computer Society
+Sponsored by the
+Design Automation Standards Committee
+
+HEAD
+IEEE Std 1364™-2005
+(Revision of IEEE Std 1364-2001)
+
+#Aim
+Understand the verilog module base on 2005 to find out the syntex error in the Encrypted data processor and correct the module for sucessfully run.
+
 
 All the RTL directories are present under:
 https://github.com/momalab/CoPHEE/tree/master/modules 
@@ -91,6 +121,65 @@ Final Set of RTL Files:
   +incdir+./design/modules/uarts/rtl
   +incdir+./design/modules/gpcfg/rtl
 
-  #Sample Simulation Script
-  ./modules/ccs0101/verif/run_test.sh
 
+  #Run Files 
+After running the verilog code we get the the following files
+The next task to understand those files.
+
+designs/<design_name>
+├─ config.tcl
+├─runs
+│    ├── <tag>
+│   │   ├── config.tcl
+│   │    ├── logs
+│   │   │      ├── cts
+│   │   │      ├── cvc
+│   │   │      ├── floorplan
+│   │   │      ├── magic
+│   │   │      ├── placement
+│   │   │      ├── routing
+│   │   │      └── synthesis
+│   │   ├── reports
+│   │   │      ├── cts
+│   │   │      ├── cvc
+│   │   │      ├── floorplan
+│   │   │      ├── magic
+│   │   │      ├── placement
+│   │   │      ├── routing
+│   │   │     └── synthesis
+│   │   ├── results
+│   │   │           ├── cts
+│   │   │           ├── cvc
+│   │   │           ├── floorplan
+│   │   │           ├── magic
+│   │   │           ├── placement
+│   │   │           ├── routing
+│   │   │          └── synthesis
+│   │   └── tmp
+│   │             ├── cts
+│   │             ├── cvc
+│   │             ├── floorplan
+│   │             ├── magic
+│   │             ├── placement
+│   │             ├── routing
+│   │             └── synthesis
+
+# Adding an MMIO Peripheral
+
+•	Project Task
+•	Parameters and Keys
+•	IO ports - a Bundle and a trait
+•	Chisel Module (the actual circuit)
+•	Memory Mapping
+•	Enabling TileLink
+•	Cake Pattern
+•	Mix in the MMIO Peripheral
+•	Verification
+•	Final Remarks 
+
+# Chisel Bootcamp
+
+• Introduction to Scala
+• Chisel designs
+• Hardware description language embedded in Scala
+• Basics and some advanced features of Chisel
